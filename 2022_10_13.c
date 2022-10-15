@@ -91,7 +91,7 @@
 //	int num2 = 0;
 //	int sum = 0;
 //	//通过键盘输入数据
-//	scanf_s("%d %d", &num1, &num2);
+//	scanf_s("%d %d", &num1, &num2);//两个%d 的意思是输入两个整数进去；&：取地址符 
 //	//两个数相加求和
 //	sum = num1 + num2;
 //
