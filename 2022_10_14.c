@@ -14,7 +14,7 @@
 //}
 
 
-//
+
 //#define _CRT_SECURE_NO_WARNINGS 1
 //#include<stdio.h>
 //
@@ -157,7 +157,7 @@ return 0;
 //星期 1.2.3.4.5.6.7
 
 
-#include<stdio.h>
+//#include<stdio.h>
 
 //枚举关键字 -- enum
 
@@ -178,18 +178,18 @@ return 0;
 //	return 0;
 //}
 
-enum Color
-{
-	RED,
-	YELLOW,//大括号里面定义的枚举常量不能改变
-	BLUE//--枚举常量
-};
-
-int main()
-{
-	enum Color color = BLUE;
-	color = YELLOW;//但是通过枚举创造出来的变量(color)是可以改变的
-	BLUE = 6;//枚举常量不能改变
-	return 0;
-}
+//enum Color
+//{
+//	RED,
+//	YELLOW,//大括号里面定义的枚举常量不能改变
+//	BLUE//--枚举常量
+//};
+//
+//int main()
+//{
+//	enum Color color = BLUE;
+//	color = YELLOW;//但是通过枚举创造出来的变量(color)是可以改变的
+//	BLUE = 6;//枚举常量不能改变
+//	return 0;
+//}
 
